@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01E020A1ADA173E5C7889CFA /* libPods-SPLumberjackLogFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4A17AC8F84FBDB8B9AA46A /* libPods-SPLumberjackLogFormatter.a */; };
 		F28D12611DE05C4500E753C5 /* SPLumberjackLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D12601DE05C4500E753C5 /* SPLumberjackLogFormatter.m */; };
+		F28D12631DE06A7A00E753C5 /* SPLumberjackLogFormatter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F28D12621DE06A7A00E753C5 /* SPLumberjackLogFormatter.podspec */; };
 		F2C853681DDE0F1D00006A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C853671DDE0F1D00006A71 /* main.m */; };
 		F2C8536B1DDE0F1D00006A71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8536A1DDE0F1D00006A71 /* AppDelegate.m */; };
 		F2C8536E1DDE0F1D00006A71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8536D1DDE0F1D00006A71 /* ViewController.m */; };
@@ -23,6 +24,7 @@
 		EF4A17AC8F84FBDB8B9AA46A /* libPods-SPLumberjackLogFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPLumberjackLogFormatter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28D125F1DE05C4500E753C5 /* SPLumberjackLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLumberjackLogFormatter.h; sourceTree = "<group>"; };
 		F28D12601DE05C4500E753C5 /* SPLumberjackLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLumberjackLogFormatter.m; sourceTree = "<group>"; };
+		F28D12621DE06A7A00E753C5 /* SPLumberjackLogFormatter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SPLumberjackLogFormatter.podspec; sourceTree = SOURCE_ROOT; };
 		F2C853631DDE0F1D00006A71 /* SPLumberjackLogFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPLumberjackLogFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C853671DDE0F1D00006A71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C853691DDE0F1D00006A71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		F2C853651DDE0F1D00006A71 /* SPLumberjackLogFormatter */ = {
 			isa = PBXGroup;
 			children = (
+				F28D12621DE06A7A00E753C5 /* SPLumberjackLogFormatter.podspec */,
 				F28D125E1DE05C4500E753C5 /* PodClasses */,
 				F2C853691DDE0F1D00006A71 /* AppDelegate.h */,
 				F2C8536A1DDE0F1D00006A71 /* AppDelegate.m */,
@@ -180,6 +183,7 @@
 			files = (
 				F2C853761DDE0F1D00006A71 /* LaunchScreen.storyboard in Resources */,
 				F2C853731DDE0F1D00006A71 /* Assets.xcassets in Resources */,
+				F28D12631DE06A7A00E753C5 /* SPLumberjackLogFormatter.podspec in Resources */,
 				F2C853711DDE0F1D00006A71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
