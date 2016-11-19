@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01E020A1ADA173E5C7889CFA /* libPods-SPLumberjackLogFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4A17AC8F84FBDB8B9AA46A /* libPods-SPLumberjackLogFormatter.a */; };
+		F28D12611DE05C4500E753C5 /* SPLumberjackLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D12601DE05C4500E753C5 /* SPLumberjackLogFormatter.m */; };
 		F2C853681DDE0F1D00006A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C853671DDE0F1D00006A71 /* main.m */; };
 		F2C8536B1DDE0F1D00006A71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8536A1DDE0F1D00006A71 /* AppDelegate.m */; };
 		F2C8536E1DDE0F1D00006A71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8536D1DDE0F1D00006A71 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 		6C8BC30102D0C375999A2F9E /* Pods-SPLumberjackLogFormatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPLumberjackLogFormatter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPLumberjackLogFormatter/Pods-SPLumberjackLogFormatter.release.xcconfig"; sourceTree = "<group>"; };
 		95222BD435F262FB0F8941C6 /* Pods-SPLumberjackLogFormatter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPLumberjackLogFormatter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPLumberjackLogFormatter/Pods-SPLumberjackLogFormatter.debug.xcconfig"; sourceTree = "<group>"; };
 		EF4A17AC8F84FBDB8B9AA46A /* libPods-SPLumberjackLogFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPLumberjackLogFormatter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28D125F1DE05C4500E753C5 /* SPLumberjackLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLumberjackLogFormatter.h; sourceTree = "<group>"; };
+		F28D12601DE05C4500E753C5 /* SPLumberjackLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLumberjackLogFormatter.m; sourceTree = "<group>"; };
 		F2C853631DDE0F1D00006A71 /* SPLumberjackLogFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPLumberjackLogFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C853671DDE0F1D00006A71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C853691DDE0F1D00006A71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +64,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F28D125E1DE05C4500E753C5 /* PodClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F28D125F1DE05C4500E753C5 /* SPLumberjackLogFormatter.h */,
+				F28D12601DE05C4500E753C5 /* SPLumberjackLogFormatter.m */,
+			);
+			path = PodClasses;
+			sourceTree = "<group>";
+		};
 		F2C8535A1DDE0F1D00006A71 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +94,7 @@
 		F2C853651DDE0F1D00006A71 /* SPLumberjackLogFormatter */ = {
 			isa = PBXGroup;
 			children = (
+				F28D125E1DE05C4500E753C5 /* PodClasses */,
 				F2C853691DDE0F1D00006A71 /* AppDelegate.h */,
 				F2C8536A1DDE0F1D00006A71 /* AppDelegate.m */,
 				F2C8536C1DDE0F1D00006A71 /* ViewController.h */,
@@ -228,6 +241,7 @@
 			files = (
 				F2C8536E1DDE0F1D00006A71 /* ViewController.m in Sources */,
 				F2C8536B1DDE0F1D00006A71 /* AppDelegate.m in Sources */,
+				F28D12611DE05C4500E753C5 /* SPLumberjackLogFormatter.m in Sources */,
 				F2C853681DDE0F1D00006A71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +286,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -320,6 +335,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
