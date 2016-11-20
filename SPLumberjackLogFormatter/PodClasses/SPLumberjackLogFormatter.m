@@ -6,6 +6,12 @@
 #import "SPLumberjackLogFormatter.h"
 @import UIKit;
 
+static NSString * const RedHeart    = @"\U00002757";
+static NSString * const YellowHeart = @"\U0001F49B";
+static NSString * const BlueHeart   = @"\U0001F499";
+static NSString * const GreenHeart  = @"\U0001F49A";
+static NSString * const PurpleHeart = @"\U0001F49C";
+
 @implementation SPLumberjackLogFormatter
 
 - (NSDateFormatter *)timestampFormatter {
@@ -33,11 +39,11 @@
     //Error Warn Info Debug Verbose
 
     switch (logMessage->_flag) {
-        case DDLogFlagError     : logLevel = @"ERROR  "; break;
-        case DDLogFlagWarning   : logLevel = @"WARNING"; break;
-        case DDLogFlagInfo      : logLevel = @"INFO   "; break;
-        case DDLogFlagDebug     : logLevel = @"DEBUG  "; break;
-        case DDLogFlagVerbose   : logLevel = @"VERBOSE"; break;
+        case DDLogFlagError     : logLevel = [NSString stringWithFormat:@"%@ %@", RedHeart, @"ERROR  "] ; break;
+        case DDLogFlagWarning   : logLevel = [NSString stringWithFormat:@"%@ %@", YellowHeart, @"WARNING"]; break;
+        case DDLogFlagInfo      : logLevel = [NSString stringWithFormat:@"%@ %@", BlueHeart, @"INFO   "]; break;
+        case DDLogFlagDebug     : logLevel = [NSString stringWithFormat:@"%@ %@", GreenHeart, @"DEBUG  "]; break;
+        case DDLogFlagVerbose   : logLevel = [NSString stringWithFormat:@"%@ %@", PurpleHeart, @"VERBOSE"]; break;
         default                 : logLevel = @"un-def "; break;
     }
     //e.g. 10:40:36.453 in DEBUG
